@@ -38,7 +38,7 @@ class ParentRegisterViewController: UIViewController, UITextFieldDelegate {
                 guard let uid = user?.uid else{
                     return
                 }
-                let ref = Database.database().reference(fromURL: "https://petsitter-388aa.firebaseio.com/")
+                let ref = Database.database().reference(fromURL: "https://petsitter-87985.firebaseio.com/")
                 let userReference = ref.child("Parent Users").child(uid)
                 let values = ["name": name, "email" : email, "phone" : phone]
                 userReference.updateChildValues(values, withCompletionBlock: { (err, ref) in

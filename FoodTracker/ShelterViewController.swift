@@ -17,7 +17,7 @@ class ShelterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        checkIfUserIsLoggedIn()
+        
         // Do any additional setup after loading the view.
     }
 
@@ -37,17 +37,19 @@ class ShelterViewController: UIViewController {
         }
 
     }
+    /*
     
-    func checkIfUserIsLoggedIn(){ // ShelterUser에 데이터 값(이름)을 load 한다.
-        let uid = Auth.auth().currentUser?.uid
-        //한 번만 호출되고 즉시 삭제되는 콜백이 필요한 경우가 있다. 이후에 변경되지 않는 UI 요소를 초기화할 때가 observeSingleEvent를 사용
-        Database.database().reference().child("Shelter Users").child(uid!).observeSingleEvent(of: .value, with: { (DataSnapshot) in
-            if let dictionary = DataSnapshot.value as? [String: AnyObject]{
-                self.navigationItem.title = dictionary["name"] as? String
-            }
-        }, withCancel: nil)
+    @IBAction func loggedOut(_ sender: UIButton) {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+            self.dismiss(animated: true, completion: nil)
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+
     }
- 
+*/
     /*
     // MARK: - Navigation
 

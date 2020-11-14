@@ -34,8 +34,6 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    //회원가입 create 해서 데이터베이스에 저장
     
     @IBAction func createUsers(_ sender: UIButton) {
         if let email = emailText.text, let password = passwordText.text, let name = nameText.text {
@@ -50,7 +48,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                 guard let uid = user?.uid else{
                     return
                 }
-                let ref = Database.database().reference(fromURL: "https://petsitter-388aa.firebaseio.com/")
+                let ref = Database.database().reference(fromURL: "https://petsitter-87985.firebaseio.com/")
                 let userReference = ref.child("Shelter Users").child(uid)
                 let values = ["name": name, "email" : email]
                 userReference.updateChildValues(values, withCompletionBlock: { (err, ref) in
@@ -85,7 +83,7 @@ class RegisterViewController: UIViewController, UITextFieldDelegate {
                 guard let uid = user?.uid else{
                     return
                 }
-                let ref = Database.database().reference(fromURL: "https://petsitter-388aa.firebaseio.com/")
+                let ref = Database.database().reference(fromURL: "https://petsitter-87985.firebaseio.com/")
                 let userReference = ref.child("Shelter Users").child(uid)
                 let values = ["name": name, "email" : email]
                 userReference.updateChildValues(values, withCompletionBlock: { (err, ref) in

@@ -8,9 +8,6 @@
 
 import UIKit
 import os.log
-import Firebase
-import FirebaseAuth
-import FirebaseDatabase
 
 class MealTableViewController: UITableViewController {
     
@@ -18,13 +15,11 @@ class MealTableViewController: UITableViewController {
     
     var meals = [Meal]()
 
-    var user: Users?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Use the edit button item provided by the table view controller.
-        //navigationItem.leftBarButtonItem = editButtonItem
+        navigationItem.leftBarButtonItem = editButtonItem
         //cell.photoImageView.layer.co
         
         // Load any saved meals, otherwise load sample data.
@@ -55,7 +50,6 @@ class MealTableViewController: UITableViewController {
     }
 
     
-    //각 table의 cell 값들을 cell에 넣어준다
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // Table view cells are reused and should be dequeued using a cell identifier.
@@ -89,7 +83,6 @@ class MealTableViewController: UITableViewController {
 
     
     // Override to support editing the table view.
-    // cell제거
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
@@ -121,7 +114,6 @@ class MealTableViewController: UITableViewController {
     //MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    // 추가 , 디테일 view 로 이동 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         super.prepare(for: segue, sender: sender)
@@ -146,10 +138,6 @@ class MealTableViewController: UITableViewController {
             
             let selectedMeal = meals[indexPath.row]
             mealDetailViewController.meal = selectedMeal
-            
-            mealDetailViewController.toId = selectedMeal.toId
-            mealDetailViewController.fromId = selectedMeal.fromId
-            mealDetailViewController.inDate = selectedMeal.date
             
             
         default:

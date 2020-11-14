@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7AE0A127BC1FCA1819495A4C /* Pods_FoodTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F47CC52AA6D183290AD6B5 /* Pods_FoodTracker.framework */; };
 		936B4B821DB54E8F0090E3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936B4B811DB54E8F0090E3EE /* AppDelegate.swift */; };
 		936B4B841DB54E8F0090E3EE /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936B4B831DB54E8F0090E3EE /* MealViewController.swift */; };
 		936B4B871DB54E8F0090E3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936B4B851DB54E8F0090E3EE /* Main.storyboard */; };
@@ -18,17 +17,6 @@
 		93B36E631DDB8D3A00334F4A /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B36E621DDB8D3A00334F4A /* MealTableViewCell.swift */; };
 		93B36E651DDBE63500334F4A /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B36E641DDBE63500334F4A /* MealTableViewController.swift */; };
 		93E91EF11DCA8F83003E4C01 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E91EF01DCA8F83003E4C01 /* RatingControl.swift */; };
-		CD06AD701FC6F60200E2663A /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD06AD6F1FC6F60200E2663A /* appicon.png */; };
-		CD06AD741FC6F79A00E2663A /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD06AD711FC6F79A00E2663A /* iTunesArtwork@1x.png */; };
-		CD06AD751FC6F79A00E2663A /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD06AD721FC6F79A00E2663A /* iTunesArtwork@2x.png */; };
-		CD06AD761FC6F79A00E2663A /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD06AD731FC6F79A00E2663A /* iTunesArtwork@3x.png */; };
-		CD06AD781FC92F9400E2663A /* ParentCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06AD771FC92F9400E2663A /* ParentCameraViewController.swift */; };
-		CD06AD7A1FC9448F00E2663A /* Doggy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06AD791FC9448F00E2663A /* Doggy.swift */; };
-		CD06AD7C1FCACF4B00E2663A /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = CD06AD7B1FCACF4B00E2663A /* camera.png */; };
-		CD06AD7E1FCAD08A00E2663A /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = CD06AD7D1FCAD08A00E2663A /* check.png */; };
-		CD06AD801FCAD34000E2663A /* close-button-png-23.png in Resources */ = {isa = PBXBuildFile; fileRef = CD06AD7F1FCAD34000E2663A /* close-button-png-23.png */; };
-		CD06AD821FCAD39400E2663A /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06AD811FCAD39400E2663A /* PopUpViewController.swift */; };
-		CD06AD841FCC2B5600E2663A /* ReqPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD06AD831FCC2B5600E2663A /* ReqPopUpViewController.swift */; };
 		CD4829B61FB7099900B32437 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4829B51FB7099900B32437 /* ShowViewController.swift */; };
 		CD4DC55E1FBC7E8C00933ED8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD4DC55D1FBC7E8C00933ED8 /* GoogleService-Info.plist */; };
 		CDA37E051FBDF3E00020F1FE /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA37E021FBDF3E00020F1FE /* 1.png */; };
@@ -51,25 +39,7 @@
 		CDC809151FBDC913005A39E7 /* shelter.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC809131FBDC913005A39E7 /* shelter.png */; };
 		CDECAC351FB7265800569730 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDECAC341FB7265800569730 /* logo.png */; };
 		CDECAC371FBA80E700569730 /* default_tap.png in Resources */ = {isa = PBXBuildFile; fileRef = CDECAC361FBA80E700569730 /* default_tap.png */; };
-		F00205791FE7AF6D00A95574 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205701FE7AF6D00A95574 /* login.png */; };
-		F002057A1FE7AF6D00A95574 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205711FE7AF6D00A95574 /* logout.png */; };
-		F002057B1FE7AF6D00A95574 /* parent_album.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205721FE7AF6D00A95574 /* parent_album.png */; };
-		F002057C1FE7AF6D00A95574 /* parent_care.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205731FE7AF6D00A95574 /* parent_care.png */; };
-		F002057D1FE7AF6D00A95574 /* pet_list.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205741FE7AF6D00A95574 /* pet_list.png */; };
-		F002057E1FE7AF6D00A95574 /* register_done.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205751FE7AF6D00A95574 /* register_done.png */; };
-		F002057F1FE7AF6D00A95574 /* register.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205761FE7AF6D00A95574 /* register.png */; };
-		F00205801FE7AF6D00A95574 /* req_send.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205771FE7AF6D00A95574 /* req_send.png */; };
-		F00205811FE7AF6D00A95574 /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = F00205781FE7AF6D00A95574 /* send.png */; };
-		F07116721FC009C3000E9B53 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07116711FC009C3000E9B53 /* CameraViewController.swift */; };
-		F07116761FC3F6B1000E9B53 /* CustomImageFlowLayout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07116751FC3F6B1000E9B53 /* CustomImageFlowLayout1.swift */; };
-		F07116781FC3FF21000E9B53 /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07116771FC3FF21000E9B53 /* DogImage.swift */; };
-		F071167A1FC54F8B000E9B53 /* CameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07116791FC54F8B000E9B53 /* CameraCollectionViewCell.swift */; };
-		F071167C1FC57284000E9B53 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071167B1FC57284000E9B53 /* PhotoViewController.swift */; };
-		F071167F1FC6D6BF000E9B53 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071167D1FC6D6BF000E9B53 /* Users.swift */; };
-		F07116801FC6D6BF000E9B53 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071167E1FC6D6BF000E9B53 /* UserTableViewController.swift */; };
-		F07116821FC6DC48000E9B53 /* Requirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07116811FC6DC48000E9B53 /* Requirement.swift */; };
-		F07116841FC6DC56000E9B53 /* petAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07116831FC6DC56000E9B53 /* petAction.swift */; };
-		F07116861FC6DF2A000E9B53 /* RequirementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07116851FC6DF2A000E9B53 /* RequirementViewController.swift */; };
+		F2C2DB23D06F3ABB2886FDF9 /* libPods-FoodTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8EF40A5C7AFDD651F11110B /* libPods-FoodTracker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +53,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		72F47CC52AA6D183290AD6B5 /* Pods_FoodTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		936B4B7E1DB54E8F0090E3EE /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		936B4B811DB54E8F0090E3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		936B4B831DB54E8F0090E3EE /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
@@ -99,17 +68,7 @@
 		93B36E641DDBE63500334F4A /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		93E91EF01DCA8F83003E4C01 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		AD002428FD44962A0CE5C5BE /* Pods-FoodTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTracker/Pods-FoodTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		CD06AD6F1FC6F60200E2663A /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
-		CD06AD711FC6F79A00E2663A /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
-		CD06AD721FC6F79A00E2663A /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
-		CD06AD731FC6F79A00E2663A /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
-		CD06AD771FC92F9400E2663A /* ParentCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentCameraViewController.swift; sourceTree = "<group>"; };
-		CD06AD791FC9448F00E2663A /* Doggy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doggy.swift; sourceTree = "<group>"; };
-		CD06AD7B1FCACF4B00E2663A /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
-		CD06AD7D1FCAD08A00E2663A /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
-		CD06AD7F1FCAD34000E2663A /* close-button-png-23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-button-png-23.png"; sourceTree = "<group>"; };
-		CD06AD811FCAD39400E2663A /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
-		CD06AD831FCC2B5600E2663A /* ReqPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReqPopUpViewController.swift; sourceTree = "<group>"; };
+		C8EF40A5C7AFDD651F11110B /* libPods-FoodTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4829B51FB7099900B32437 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
 		CD4DC55D1FBC7E8C00933ED8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CDA37E021FBDF3E00020F1FE /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
@@ -133,25 +92,6 @@
 		CDECAC341FB7265800569730 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		CDECAC361FBA80E700569730 /* default_tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_tap.png; sourceTree = "<group>"; };
 		D0F20F0678F7F1B4D6599B1B /* Pods-FoodTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTracker/Pods-FoodTracker.release.xcconfig"; sourceTree = "<group>"; };
-		F00205701FE7AF6D00A95574 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
-		F00205711FE7AF6D00A95574 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
-		F00205721FE7AF6D00A95574 /* parent_album.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parent_album.png; sourceTree = "<group>"; };
-		F00205731FE7AF6D00A95574 /* parent_care.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = parent_care.png; sourceTree = "<group>"; };
-		F00205741FE7AF6D00A95574 /* pet_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pet_list.png; sourceTree = "<group>"; };
-		F00205751FE7AF6D00A95574 /* register_done.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_done.png; sourceTree = "<group>"; };
-		F00205761FE7AF6D00A95574 /* register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register.png; sourceTree = "<group>"; };
-		F00205771FE7AF6D00A95574 /* req_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = req_send.png; sourceTree = "<group>"; };
-		F00205781FE7AF6D00A95574 /* send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = send.png; sourceTree = "<group>"; };
-		F07116711FC009C3000E9B53 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		F07116751FC3F6B1000E9B53 /* CustomImageFlowLayout1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageFlowLayout1.swift; sourceTree = "<group>"; };
-		F07116771FC3FF21000E9B53 /* DogImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
-		F07116791FC54F8B000E9B53 /* CameraCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCollectionViewCell.swift; sourceTree = "<group>"; };
-		F071167B1FC57284000E9B53 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		F071167D1FC6D6BF000E9B53 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
-		F071167E1FC6D6BF000E9B53 /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
-		F07116811FC6DC48000E9B53 /* Requirement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requirement.swift; sourceTree = "<group>"; };
-		F07116831FC6DC56000E9B53 /* petAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = petAction.swift; sourceTree = "<group>"; };
-		F07116851FC6DF2A000E9B53 /* RequirementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequirementViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE0A127BC1FCA1819495A4C /* Pods_FoodTracker.framework in Frameworks */,
+				F2C2DB23D06F3ABB2886FDF9 /* libPods-FoodTracker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,22 +145,6 @@
 		936B4B801DB54E8F0090E3EE /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
-				F00205701FE7AF6D00A95574 /* login.png */,
-				F00205711FE7AF6D00A95574 /* logout.png */,
-				F00205721FE7AF6D00A95574 /* parent_album.png */,
-				F00205731FE7AF6D00A95574 /* parent_care.png */,
-				F00205741FE7AF6D00A95574 /* pet_list.png */,
-				F00205751FE7AF6D00A95574 /* register_done.png */,
-				F00205761FE7AF6D00A95574 /* register.png */,
-				F00205771FE7AF6D00A95574 /* req_send.png */,
-				F00205781FE7AF6D00A95574 /* send.png */,
-				CD06AD7F1FCAD34000E2663A /* close-button-png-23.png */,
-				CD06AD7D1FCAD08A00E2663A /* check.png */,
-				CD06AD7B1FCACF4B00E2663A /* camera.png */,
-				CD06AD711FC6F79A00E2663A /* iTunesArtwork@1x.png */,
-				CD06AD721FC6F79A00E2663A /* iTunesArtwork@2x.png */,
-				CD06AD731FC6F79A00E2663A /* iTunesArtwork@3x.png */,
-				CD06AD6F1FC6F60200E2663A /* appicon.png */,
 				CDA37E0E1FBE98C80020F1FE /* sample3.jpg */,
 				CDA37E0A1FBE982A0020F1FE /* sample1.jpg */,
 				CDA37E0B1FBE982A0020F1FE /* sample2.jpg */,
@@ -237,13 +161,11 @@
 				CDECAC361FBA80E700569730 /* default_tap.png */,
 				CDECAC341FB7265800569730 /* logo.png */,
 				936B4B811DB54E8F0090E3EE /* AppDelegate.swift */,
+				936B4B831DB54E8F0090E3EE /* MealViewController.swift */,
 				93E91EF01DCA8F83003E4C01 /* RatingControl.swift */,
 				939722381DD4ED9800ACC1D0 /* Meal.swift */,
 				93B36E621DDB8D3A00334F4A /* MealTableViewCell.swift */,
 				93B36E641DDBE63500334F4A /* MealTableViewController.swift */,
-				936B4B831DB54E8F0090E3EE /* MealViewController.swift */,
-				F071167D1FC6D6BF000E9B53 /* Users.swift */,
-				F071167E1FC6D6BF000E9B53 /* UserTableViewController.swift */,
 				936B4B851DB54E8F0090E3EE /* Main.storyboard */,
 				936B4B881DB54E8F0090E3EE /* Assets.xcassets */,
 				936B4B8A1DB54E8F0090E3EE /* LaunchScreen.storyboard */,
@@ -255,18 +177,6 @@
 				CDA37E121FBE99100020F1FE /* ParentCareViewController.swift */,
 				CDA37E141FBF1C3C0020F1FE /* ParentLoginViewController.swift */,
 				CDA37E161FBF1C4F0020F1FE /* ParentRegisterViewController.swift */,
-				F07116711FC009C3000E9B53 /* CameraViewController.swift */,
-				F07116751FC3F6B1000E9B53 /* CustomImageFlowLayout1.swift */,
-				F07116771FC3FF21000E9B53 /* DogImage.swift */,
-				F07116791FC54F8B000E9B53 /* CameraCollectionViewCell.swift */,
-				F071167B1FC57284000E9B53 /* PhotoViewController.swift */,
-				F07116811FC6DC48000E9B53 /* Requirement.swift */,
-				F07116831FC6DC56000E9B53 /* petAction.swift */,
-				F07116851FC6DF2A000E9B53 /* RequirementViewController.swift */,
-				CD06AD771FC92F9400E2663A /* ParentCameraViewController.swift */,
-				CD06AD791FC9448F00E2663A /* Doggy.swift */,
-				CD06AD811FCAD39400E2663A /* PopUpViewController.swift */,
-				CD06AD831FCC2B5600E2663A /* ReqPopUpViewController.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -283,7 +193,7 @@
 		A299CA93EA7856922EBD94E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72F47CC52AA6D183290AD6B5 /* Pods_FoodTracker.framework */,
+				C8EF40A5C7AFDD651F11110B /* libPods-FoodTracker.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -374,34 +284,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD06AD7C1FCACF4B00E2663A /* camera.png in Resources */,
 				CDA37E051FBDF3E00020F1FE /* 1.png in Resources */,
-				F002057C1FE7AF6D00A95574 /* parent_care.png in Resources */,
-				CD06AD761FC6F79A00E2663A /* iTunesArtwork@3x.png in Resources */,
 				CDC809151FBDC913005A39E7 /* shelter.png in Resources */,
 				CDECAC371FBA80E700569730 /* default_tap.png in Resources */,
-				CD06AD801FCAD34000E2663A /* close-button-png-23.png in Resources */,
 				CDECAC351FB7265800569730 /* logo.png in Resources */,
-				F002057B1FE7AF6D00A95574 /* parent_album.png in Resources */,
 				936B4B8C1DB54E8F0090E3EE /* LaunchScreen.storyboard in Resources */,
-				F002057E1FE7AF6D00A95574 /* register_done.png in Resources */,
 				CDA37E0F1FBE98C80020F1FE /* sample3.jpg in Resources */,
 				CDA37E091FBE96A60020F1FE /* red-paw-print-md.png in Resources */,
 				936B4B891DB54E8F0090E3EE /* Assets.xcassets in Resources */,
-				F00205811FE7AF6D00A95574 /* send.png in Resources */,
-				F00205791FE7AF6D00A95574 /* login.png in Resources */,
 				CDA37E061FBDF3E00020F1FE /* 2.png in Resources */,
-				F00205801FE7AF6D00A95574 /* req_send.png in Resources */,
 				CDA37E0C1FBE982A0020F1FE /* sample1.jpg in Resources */,
-				CD06AD701FC6F60200E2663A /* appicon.png in Resources */,
-				CD06AD751FC6F79A00E2663A /* iTunesArtwork@2x.png in Resources */,
 				CDC809141FBDC913005A39E7 /* parent.png in Resources */,
 				CDA37E071FBDF3E00020F1FE /* 3.png in Resources */,
-				CD06AD741FC6F79A00E2663A /* iTunesArtwork@1x.png in Resources */,
-				F002057F1FE7AF6D00A95574 /* register.png in Resources */,
-				F002057A1FE7AF6D00A95574 /* logout.png in Resources */,
-				F002057D1FE7AF6D00A95574 /* pet_list.png in Resources */,
-				CD06AD7E1FCAD08A00E2663A /* check.png in Resources */,
 				936B4B871DB54E8F0090E3EE /* Main.storyboard in Resources */,
 				CD4DC55E1FBC7E8C00933ED8 /* GoogleService-Info.plist in Resources */,
 				CDC8090D1FBDC111005A39E7 /* IMG_3779.JPG in Resources */,
@@ -426,22 +320,9 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FoodTracker/Pods-FoodTracker-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -490,31 +371,17 @@
 			files = (
 				939722391DD4ED9800ACC1D0 /* Meal.swift in Sources */,
 				CDA37E131FBE99100020F1FE /* ParentCareViewController.swift in Sources */,
-				F07116861FC6DF2A000E9B53 /* RequirementViewController.swift in Sources */,
 				CDA37E151FBF1C3C0020F1FE /* ParentLoginViewController.swift in Sources */,
-				F07116781FC3FF21000E9B53 /* DogImage.swift in Sources */,
-				F07116801FC6D6BF000E9B53 /* UserTableViewController.swift in Sources */,
-				F07116721FC009C3000E9B53 /* CameraViewController.swift in Sources */,
 				CDA74AC51FBC8144008559AA /* RegisterViewController.swift in Sources */,
 				CD4829B61FB7099900B32437 /* ShowViewController.swift in Sources */,
-				CD06AD781FC92F9400E2663A /* ParentCameraViewController.swift in Sources */,
-				CD06AD7A1FC9448F00E2663A /* Doggy.swift in Sources */,
 				936B4B841DB54E8F0090E3EE /* MealViewController.swift in Sources */,
 				CDA37E111FBE98FD0020F1FE /* ParentViewController.swift in Sources */,
-				F07116841FC6DC56000E9B53 /* petAction.swift in Sources */,
 				CDA74AC31FBC80E6008559AA /* ShelterViewController.swift in Sources */,
-				F07116761FC3F6B1000E9B53 /* CustomImageFlowLayout1.swift in Sources */,
-				CD06AD821FCAD39400E2663A /* PopUpViewController.swift in Sources */,
 				93E91EF11DCA8F83003E4C01 /* RatingControl.swift in Sources */,
-				CD06AD841FCC2B5600E2663A /* ReqPopUpViewController.swift in Sources */,
-				F071167F1FC6D6BF000E9B53 /* Users.swift in Sources */,
 				CDA74AC11FBC801D008559AA /* LoginViewController.swift in Sources */,
-				F07116821FC6DC48000E9B53 /* Requirement.swift in Sources */,
 				936B4B821DB54E8F0090E3EE /* AppDelegate.swift in Sources */,
 				93B36E651DDBE63500334F4A /* MealTableViewController.swift in Sources */,
-				F071167A1FC54F8B000E9B53 /* CameraCollectionViewCell.swift in Sources */,
 				93B36E631DDB8D3A00334F4A /* MealTableViewCell.swift in Sources */,
-				F071167C1FC57284000E9B53 /* PhotoViewController.swift in Sources */,
 				CDA37E171FBF1C4F0020F1FE /* ParentRegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

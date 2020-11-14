@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>805755948864-3ro1h34d8dq1jeorc1o81vtn5irm6m0l.apps.googleusercontent.com</string>
+	<string>84777105176-v340085o1pg7a65gvdgig92dnkhar20g.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.805755948864-3ro1h34d8dq1jeorc1o81vtn5irm6m0l</string>
+	<string>com.googleusercontent.apps.84777105176-v340085o1pg7a65gvdgig92dnkhar20g</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCaxLQBTRY4PtKaMRcyUIV988999Pc34M8</string>
+	<string>AIzaSyCPjxU86K7GYJ6D67qRGl-BzXItFGqk57s</string>
 	<key>GCM_SENDER_ID</key>
-	<string>805755948864</string>
+	<string>84777105176</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.petsitter.list</string>
+	<string>com.example.FoodTracker</string>
 	<key>PROJECT_ID</key>
-	<string>petsitter-388aa</string>
+	<string>petsitter-87985</string>
 	<key>STORAGE_BUCKET</key>
-	<string>petsitter-388aa.appspot.com</string>
+	<string>petsitter-87985.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:805755948864:ios:4903fd76fa65452d</string>
+	<string>1:84777105176:ios:28220674227ffad0</string>
 	<key>DATABASE_URL</key>
-	<string>https://petsitter-388aa.firebaseio.com</string>
+	<string>https://petsitter-87985.firebaseio.com</string>
 </dict>
 </plist>

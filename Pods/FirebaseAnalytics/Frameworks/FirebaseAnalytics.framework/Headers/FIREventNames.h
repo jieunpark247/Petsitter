@@ -12,7 +12,6 @@
 
 #import "FIRAnalyticsSwiftNameSupport.h"
 
-
 /// Add Payment Info event. This event signifies that a user has submitted their payment information
 /// to your app.
 static NSString *const kFIREventAddPaymentInfo FIR_SWIFT_NAME(AnalyticsEventAddPaymentInfo) =

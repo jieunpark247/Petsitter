@@ -8,14 +8,10 @@
 
 import UIKit
 import os.log
-import Firebase
-import FirebaseAuth
-import FirebaseDatabase
 
 class MealViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
     
     
-    var user: Users?
     //MARK: Properties
     /*
     @IBOutlet weak var nameTextField: UITextField!
@@ -35,7 +31,7 @@ class MealViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     @IBOutlet var kindPicker: UIPickerView!
     @IBOutlet var datePicker: UIDatePicker!
     @IBOutlet var sexPicker: UISegmentedControl!
-    //@IBOutlet var infoText: UITextField!
+    @IBOutlet var infoText: UITextField!
     
     
     /*
@@ -49,7 +45,6 @@ class MealViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         
         // Handle the text field’s user input through delegate callbacks.
         nameTextField.delegate = self
-        navigationItem.title = (user?.name)! + "님의 펫 추가"
         
         // Set up views if editing an existing Meal.
         
@@ -59,7 +54,7 @@ class MealViewController: UIViewController, UIImagePickerControllerDelegate, UIN
             photoImageView.image = meal.photo
             kindPicker.selectedRow(inComponent: 0)
             sexPicker.titleForSegment(at: sexPicker.selectedSegmentIndex)
-            //infoText.text = meal.info
+            infoText.text = meal.info
             
             //ratingControl.rating = meal.rating
         }
@@ -145,42 +140,11 @@ class MealViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         dateFormatter.dateStyle = .long
         let birth = dateFormatter.string(from: self.datePicker.date)
         
-        
-        let now=NSDate()
-        let dateSecondFormatter = DateFormatter()
-        dateSecondFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
-        dateSecondFormatter.locale = NSLocale(localeIdentifier: "ko_KR") as Locale!
-        let dateNow: String = dateSecondFormatter.string(from: now as Date)
-        
-        
-        
-        //let info = infoText.text ?? ""
+        let info = infoText.text ?? ""
         
         let kind: String = kindArray[self.kindPicker.selectedRow(inComponent: 0)]
         // Set the meal to be passed to MealTableViewController after the unwind segue.
-        
-        let toId = user?.id
-        let fromId = Auth.auth().currentUser?.uid
-        
-        meal = Meal(toId: toId!, fromId: fromId!, name: name, photo: photo, sex: sex, birth: birth, kind: kind, date: dateNow)
-        
-        let ref = Database.database().reference(fromURL: "https://petsitter-388aa.firebaseio.com/").child("Pet Info")
-        let childRef = ref.childByAutoId()
-        //let toId = user?.id
-        //let fromId = Auth.auth().currentUser?.uid
-        //let timeStamp = Int(NSNumber(value: Date().timeIntervalSinceNow))
-        //let date = NSDate(timeIntervalSince1970: 1432233446145.0/1000.0)
-        let values = ["toID": toId, "fromId": fromId,  "name": name, "sex": sex, "birth": birth, "kind": kind, "date": dateNow]
-        childRef.updateChildValues(values, withCompletionBlock: { (err, ref) in
-            if err != nil{
-                print("err")
-                return
-            }
-            print("save pet info successfully into Firebase db")
-        })
-        
-        
-        
+        meal = Meal(name: name, photo: photo, sex: sex, birth: birth, info: info, kind: kind)
     }
     
     //MARK: Actions

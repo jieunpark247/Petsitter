@@ -29,7 +29,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     //@IBOutlet var signInButton: UIButton!
     
        //var isSignIn:Bool = true
-    let ref = Database.database().reference(fromURL: "https://petsitter-388aa.firebaseio.com/")
+    let ref = Database.database().reference(fromURL: "https://petsitter-87985.firebaseio.com/")
     //ref.updateChildValues()
     
     override func viewDidLoad() {
@@ -67,7 +67,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         }
  */
     }
-    //로그인하기
+    
     @IBAction func loginTapped(_ sender: UIButton) {
         if let email = idTextField.text, let password = pwTextField.text{
             Auth.auth().signIn(withEmail: email, password: password, completion: { (user, error) in
@@ -110,7 +110,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         }
     }
     */
-    
     
     func presentLoggedInScreen(){
         let storyboard:UIStoryboard = UIStoryboard(name:"Main", bundle: nil)
